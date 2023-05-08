@@ -28,6 +28,9 @@ class Result3 {
 		
     // Write your code here
     	int c=0;
+    	TreeSet<Long> set = new TreeSet<>();
+    	
+    	set.ceiling(0l) ;
     	
     	for(int i=0;i<s.size()-m+1;i++ )
     	{

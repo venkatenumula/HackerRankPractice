@@ -44,6 +44,7 @@ public class ArraySort {
 		
 		List<Integer> lt=List.of(22,7,59,-61,3,88);
 		lt.subList(0, lt.size()/2);
+		
 		Collections.sort(lt,Collections.reverseOrder() );
 		
 		
